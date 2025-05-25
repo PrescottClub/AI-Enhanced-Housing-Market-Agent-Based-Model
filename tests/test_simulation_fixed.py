@@ -9,6 +9,9 @@ try:
     
     # 1. 测试模块导入
     print("1️⃣ 测试模块导入...")
+    import sys
+    import os
+    sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
     from ai_enhanced_housing_model_fixed import SafeAIEnhancedHousingMarketModel, run_safe_simulation
     print("✅ 修复版本模块导入成功!")
     

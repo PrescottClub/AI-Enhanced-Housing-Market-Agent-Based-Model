@@ -45,7 +45,7 @@ def run_demo_simulation():
         print("\n🚀 启动AI增强房屋市场仿真演示...")
         
         # 导入修复版本模型
-        from ai_enhanced_housing_model_fixed import run_safe_simulation
+        import sys; sys.path.append("../src"); from ai_enhanced_housing_model_fixed import run_safe_simulation
         
         # 运行小规模演示
         print("📊 运行小规模市场仿真...")
@@ -90,7 +90,7 @@ def run_custom_simulation():
         
         print(f"\n🏗️ 创建市场: {num_residents}居民, {num_investors}投资者, {steps}步")
         
-        from ai_enhanced_housing_model_fixed import run_safe_simulation
+        import sys; sys.path.append("../src"); from ai_enhanced_housing_model_fixed import run_safe_simulation
         
         model, results = run_safe_simulation(
             steps=steps,
