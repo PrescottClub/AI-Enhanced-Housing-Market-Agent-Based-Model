@@ -1,3 +1,68 @@
-.ipynb_checkpoints/
+# Python编译文件
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+
+# 发布包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 环境变量
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch模型
+*.pth
+*.pt
+model_checkpoints/
+
+# 数据文件
+*.csv
+*.xlsx
+*.pkl
+*.pickle
+simulation_results/
+output/
+
+# 可视化输出
+*.png
+*.jpg
+*.jpeg
+*.svg
+simulation_visualization.png
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
