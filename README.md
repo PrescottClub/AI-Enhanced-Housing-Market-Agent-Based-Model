@@ -1,131 +1,130 @@
-# 🏠🤖 AI增强房屋市场仿真系统
+# 🏠🤖 AI-Enhanced Housing Market Simulation System
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org/)
 [![Mesa](https://img.shields.io/badge/Mesa-2.0%2B-green.svg)](https://mesa.readthedocs.io/)
-[![VSCode](https://img.shields.io/badge/VSCode-原生支持-brightgreen.svg)]()
-[![Jupyter](https://img.shields.io/badge/Jupyter-兼容-orange.svg)]()
+[![VSCode](https://img.shields.io/badge/VSCode-Native%20Support-brightgreen.svg)]()
+[![Jupyter](https://img.shields.io/badge/Jupyter-Compatible-orange.svg)]()
 
-> 🎯 **专为VSCode打造的一键运行AI房屋市场仿真**
+> 🎯 **One-Click AI Housing Market Simulation for VSCode**
 > 
-> 📱 **零配置 | 一键运行 | 自动可视化 | 完整数据导出**
+> 📱 **Zero Config | One-Click Run | Auto Visualization | Complete Data Export**
 > 
-> 直接在VSCode中打开notebook，点击运行即可获得专业级仿真结果！
+> Open the notebook in VSCode, click run, and get professional simulation results instantly!
 
 ---
 
-## 🌟 核心亮点
+## 🌟 Core Highlights
 
-### ⚡ 极致便捷体验
-- **🔥 VSCode原生支持** - 无需配置Jupyter服务器，直接运行
-- **🎯 智能路径管理** - 自动适配不同运行环境，零配置困扰
-- **📊 一键可视化** - 运行即生成专业级图表和数据分析
-- **💾 自动数据导出** - CSV数据、PNG图表、分析报告自动保存
+### ⚡ Ultimate Convenience
+- **🔥 VSCode Native Support** - No Jupyter server configuration needed, run directly
+- **🎯 Smart Path Management** - Auto-adapts to different environments, zero config hassle
+- **📊 One-Click Visualization** - Generate professional charts and analysis instantly
+- **💾 Auto Data Export** - CSV data, PNG charts, analysis reports saved automatically
 
-### 🧠 AI技术栈
-- **深度强化学习 (DQN)** - 智能投资决策优化
-- **随机森林预测** - 房价趋势智能预测  
-- **多智能体仿真** - 复杂市场动态建模
-- **实时数据分析** - 15+关键指标监控
+### 🧠 AI Technology Stack
+- **Deep Reinforcement Learning (DQN)** - Optimized intelligent investment decisions
+- **Random Forest Prediction** - Smart house price trend forecasting  
+- **Multi-Agent Simulation** - Complex market dynamics modeling
+- **Real-time Data Analysis** - Monitor 15+ key indicators
 
 ---
 
-## 🚀 立即开始 (3步启动)
+## 🚀 Quick Start (3 Steps)
 
-### 1️⃣ 克隆项目
+### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model.git
 cd AI-Enhanced-Housing-Market-Agent-Based-Model
 ```
 
-### 2️⃣ 安装依赖
+### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements_ai_enhanced.txt
 ```
 
-### 3️⃣ VSCode中运行 
-- 在VSCode中打开 `notebooks/ai_enhanced_housing_market_simulation_fixed.ipynb`
-- 点击 **"全部运行"** 或逐个运行代码单元格
-- 🎉 享受自动生成的可视化结果！
+### 3️⃣ Run in VSCode 
+- Open `notebooks/ai_enhanced_housing_market_simulation_fixed.ipynb` in VSCode
+- Click **"Run All"** or run cells individually
+- 🎉 Enjoy auto-generated visualization results!
 
-> **💡 提示**: 系统会自动生成专业图表并保存到 `outputs/` 目录
+> **💡 Tip**: The system will automatically generate professional charts and save to `outputs/` directory
 
 ---
 
-## 📊 运行效果预览
+## 📊 Output Preview
 
-### 🎬 仿真过程
+### 🎬 Simulation Process
 ```
-🎬 开始AI增强房屋市场仿真演示...
-⏳ 请稍候，系统正在初始化智能体和市场环境...
+🎬 Starting AI-Enhanced Housing Market Simulation Demo...
+⏳ Please wait, initializing agents and market environment...
 
-🎉 演示仿真成功完成！
-📊 收集到 30 步仿真数据
-🏠 模拟了 50 个居民和 15 个投资者
+🎉 Demo simulation completed successfully!
+📊 Collected 30 steps of simulation data
+🏠 Simulated 50 residents and 15 investors
 ```
 
-### 📈 自动生成内容
-- **📊 核心指标分析图** - 房价趋势、满意度、AI预测、投资表现
-- **💾 CSV数据文件** - 完整的时序仿真数据
-- **📋 关键指标总结** - 房价变化、社会指标、AI表现评估
+### 📈 Auto-Generated Content
+- **📊 Core Metrics Chart** - Price trends, satisfaction, AI predictions, investment performance
+- **💾 CSV Data Files** - Complete time-series simulation data
+- **📋 Key Metrics Summary** - Price changes, social indicators, AI performance evaluation
 
 ---
 
-## 🎯 性能表现
+## 🎯 Performance Results
 
-### 📈 相比传统ABM模型的提升
+### 📈 Improvements vs Traditional ABM Models
 
-| 核心指标 | 传统ABM | AI增强版 | 性能提升 |
-|---------|---------|----------|----------|
-| **房价预测精度** | 60% | 78% | **🔥 +30%** |
-| **投资收益率** | 5.2% | 6.8% | **💰 +31%** |
-| **居民满意度** | 0.52 | 0.58 | **😊 +12%** |
-| **市场效率指数** | 0.65 | 0.73 | **📊 +12%** |
+| Core Metrics | Traditional ABM | AI-Enhanced | Performance Gain |
+|-------------|----------------|-------------|------------------|
+| **Price Prediction Accuracy** | 60% | 78% | **🔥 +30%** |
+| **Investment ROI** | 5.2% | 6.8% | **💰 +31%** |
+| **Resident Satisfaction** | 0.52 | 0.58 | **😊 +12%** |
+| **Market Efficiency Index** | 0.65 | 0.73 | **📊 +12%** |
 
-### ⚡ 运行性能
-- **小型市场** (50智能体): ~2.3秒
-- **中型市场** (100智能体): ~5.8秒  
-- **大型市场** (200智能体): ~12.1秒
+### ⚡ Runtime Performance
+- **Small Market** (50 agents): ~2.3 seconds
+- **Medium Market** (100 agents): ~5.8 seconds  
+- **Large Market** (200 agents): ~12.1 seconds
 
 ---
 
-## 🏗️ 项目架构
+## 🏗️ Project Architecture
 
 ```
 AI-Enhanced-Housing-Market-ABM/
 ├── 📓 notebooks/
-│   └── ai_enhanced_housing_market_simulation_fixed.ipynb  # ⭐ 主仿真文件
+│   └── ai_enhanced_housing_market_simulation_fixed.ipynb  # ⭐ Main simulation file
 ├── 🧠 src/
-│   ├── ai_enhanced_housing_model.py              # 原始模型
-│   └── ai_enhanced_housing_model_fixed.py        # 🔥 稳定版本
-├── 📊 outputs/ (自动生成)
-│   ├── core_metrics.png                          # 核心指标图表
-│   ├── simulation_data.csv                       # 仿真数据
-│   └── simulation_summary.txt                    # 结果摘要
-├── 🧪 tests/                                     # 测试套件
-├── 📚 docs/                                      # 文档
-└── 📦 requirements_ai_enhanced.txt               # 依赖包
+│   ├── ai_enhanced_housing_model.py              # Original model
+│   └── ai_enhanced_housing_model_fixed.py        # 🔥 Stable version
+├── 📊 outputs/ (auto-generated)
+│   ├── core_metrics.png                          # Core metrics chart
+│   ├── simulation_data.csv                       # Simulation data
+│   └── simulation_summary.txt                    # Results summary
+├── 🧪 tests/                                     # Test suite
+└── 📦 requirements_ai_enhanced.txt               # Dependencies
 ```
 
 ---
 
-## 💻 技术实现
+## 💻 Technical Implementation
 
-### 🔬 核心AI组件
+### 🔬 Core AI Components
 
 ```python
-# 深度强化学习投资决策
+# Deep Reinforcement Learning Investment Decisions
 class ReinforcementLearningAgent:
     def __init__(self):
         self.dqn_network = DQN(state_dim=10, action_dim=4)
-        self.epsilon = 0.1  # 探索率
+        self.epsilon = 0.1  # Exploration rate
     
     def make_decision(self, market_state):
         return self.dqn_network.predict(market_state)
 ```
 
 ```python
-# 机器学习房价预测
+# Machine Learning Price Prediction
 class MarketPredictor:
     def __init__(self):
         self.rf_model = RandomForestRegressor(n_estimators=100)
@@ -134,10 +133,10 @@ class MarketPredictor:
         return self.rf_model.predict(features)
 ```
 
-### 🎯 智能路径管理
+### 🎯 Smart Path Management
 
 ```python
-# 自动适配VSCode环境
+# Auto-adapt to VSCode environment
 current_dir = os.getcwd()
 if 'notebooks' in current_dir:
     src_path = os.path.join(os.path.dirname(current_dir), 'src')
@@ -150,15 +149,15 @@ if src_path not in sys.path:
 
 ---
 
-## 🛠️ 系统要求
+## 🛠️ System Requirements
 
-### 基础环境
+### Basic Environment
 - **Python**: 3.8+ 
-- **编辑器**: VSCode + Python扩展 (推荐)
-- **内存**: 4GB+ RAM
-- **存储**: 1GB+ 可用空间
+- **Editor**: VSCode + Python Extension (Recommended)
+- **Memory**: 4GB+ RAM
+- **Storage**: 1GB+ Available Space
 
-### 核心依赖
+### Core Dependencies
 ```txt
 numpy>=1.21.0
 pandas>=1.3.0
@@ -172,25 +171,25 @@ jupyter>=1.0.0
 
 ---
 
-## 🎮 使用示例
+## 🎮 Usage Examples
 
-### 基础仿真
+### Basic Simulation
 ```python
 from src.ai_enhanced_housing_model_fixed import run_safe_simulation
 
-# 运行标准仿真
+# Run standard simulation
 model, results = run_safe_simulation(
-    steps=30,           # 仿真步数
-    num_residents=50,   # 居民数量
-    num_investors=15    # 投资者数量
+    steps=30,           # Simulation steps
+    num_residents=50,   # Number of residents
+    num_investors=15    # Number of investors
 )
 
-print(f"最终房价: ¥{results['Average Property Value'].iloc[-1]:,.0f}")
+print(f"Final Price: ¥{results['Average Property Value'].iloc[-1]:,.0f}")
 ```
 
-### 自定义市场
+### Custom Market
 ```python
-# 大型市场仿真
+# Large market simulation
 model, results = run_safe_simulation(
     steps=50,
     num_residents=100,
@@ -202,82 +201,82 @@ model, results = run_safe_simulation(
 
 ---
 
-## 🔍 关键特性详解
+## 🔍 Key Features Detailed
 
-### 🧠 AI增强功能
-- **深度Q网络 (DQN)**: 智能体学习最优投资策略
-- **随机森林**: 基于历史数据预测房价趋势
-- **多目标优化**: 平衡收益、风险、社会效益
-- **实时学习**: 智能体根据市场反馈调整策略
+### 🧠 AI Enhancement Functions
+- **Deep Q-Network (DQN)**: Agents learn optimal investment strategies
+- **Random Forest**: Predicts price trends based on historical data
+- **Multi-Objective Optimization**: Balances profit, risk, and social benefits
+- **Real-time Learning**: Agents adjust strategies based on market feedback
 
-### 🏘️ 市场仿真系统
-- **多智能体交互**: 居民、投资者、房产开发商
-- **空间网格建模**: 基于地理位置的房产价值
-- **经济环境模拟**: 收入分配、就业率、通胀影响
-- **政策干预机制**: 税收、购房限制、住房补贴
+### 🏘️ Market Simulation System
+- **Multi-Agent Interaction**: Residents, investors, property developers
+- **Spatial Grid Modeling**: Location-based property value modeling
+- **Economic Environment Simulation**: Income distribution, employment, inflation
+- **Policy Intervention Mechanisms**: Taxation, purchase restrictions, housing subsidies
 
-### 📊 数据分析能力
-- **实时指标监控**: 15+核心KPI实时追踪
-- **自动可视化**: 专业级图表自动生成
-- **统计分析**: 基尼系数、相关性分析、趋势检测
-- **数据导出**: 多格式数据文件自动保存
+### 📊 Data Analysis Capabilities
+- **Real-time Indicator Monitoring**: 15+ core KPI tracking
+- **Auto Visualization**: Professional chart generation
+- **Statistical Analysis**: Gini coefficient, correlation analysis, trend detection
+- **Data Export**: Multi-format data file auto-saving
 
 ---
 
-## 🧪 测试与验证
+## 🧪 Testing & Validation
 
-### 运行测试套件
+### Run Test Suite
 ```bash
-# 基础功能测试
+# Basic functionality tests
 python -m pytest tests/test_basic.py
 
-# 性能基准测试
+# Performance benchmarks
 python tests/benchmark_performance.py
 
-# AI模型验证
+# AI model validation
 python tests/test_ai_components.py
 ```
 
-### 性能基准
-- **预测准确率**: 78.3% (RMSE: ¥25,430)
-- **收敛时间**: 平均23步达到稳定状态
-- **内存使用**: 峰值2.1GB (1000智能体)
+### Performance Benchmarks
+- **Prediction Accuracy**: 78.3% (RMSE: ¥25,430)
+- **Convergence Time**: Average 23 steps to reach stability
+- **Memory Usage**: Peak 2.1GB (1000 agents)
 
 ---
 
-## 🤝 贡献与支持
+## 🤝 Contributing & Support
 
-### 参与贡献
-欢迎提交 Issue 和 Pull Request！
+### Contributing
+Welcome to submit Issues and Pull Requests!
 
 ```bash
-# 开发环境设置
+# Development environment setup
 git clone https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model.git
 cd AI-Enhanced-Housing-Market-Agent-Based-Model
 pip install -r requirements_ai_enhanced.txt
 python -m pytest tests/
 ```
 
-### 获取帮助
-- **📋 Issues**: [报告问题](https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model/issues)
-- **💬 Discussions**: [参与讨论](https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model/discussions)
-- **📖 Wiki**: [详细文档](https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model/wiki)
+### Get Help
+- **📋 Issues**: [Report Issues](https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model/issues)
+- **💬 Discussions**: [Join Discussions](https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model/discussions)
+- **📖 Wiki**: [Detailed Documentation](https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model/wiki)
 
 ---
 
-## 📄 许可证
+## 📄 License
 
-本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ---
 
-## 🙏 致谢
+## 🙏 Acknowledgments
 
-感谢以下开源项目的支持：
-- **[Mesa](https://mesa.readthedocs.io/)** - ABM建模框架
-- **[PyTorch](https://pytorch.org/)** - 深度学习支持
-- **[Scikit-learn](https://scikit-learn.org/)** - 机器学习算法
-- **[Jupyter](https://jupyter.org/)** - 交互式计算环境
+Thanks to the following open source projects:
+- **[Mesa](https://mesa.readthedocs.io/)** - ABM modeling framework
+- **[PyTorch](https://pytorch.org/)** - Deep learning support
+- **[Scikit-learn](https://scikit-learn.org/)** - Machine learning algorithms
+- **[Jupyter](https://jupyter.org/)** - Interactive computing environment
 
 ---
 
@@ -285,8 +284,8 @@ python -m pytest tests/
 
 **🏠 Built with ❤️ for advancing housing market research through AI innovation**
 
-**🚀 [立即开始](https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model) | 📊 [查看Demo](./notebooks/ai_enhanced_housing_market_simulation_fixed.ipynb) | 📚 [阅读文档](./docs/)**
+**🚀 [Get Started](https://github.com/PrescottClub/AI-Enhanced-Housing-Market-Agent-Based-Model) | 📊 [View Demo](./notebooks/ai_enhanced_housing_market_simulation_fixed.ipynb) | 📚 [Read Docs](./docs/)**
 
-*⭐ 如果这个项目对您有帮助，请给我们一个星标！*
+*⭐ If this project helps you, please give us a star!*
 
 </div>
